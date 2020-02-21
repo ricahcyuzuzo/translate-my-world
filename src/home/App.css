@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+}
+/* Navbar Component */
+.navBar {
+  width: 100%;
+  min-height: 50px;
+  background-color: #fbf9f9;
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks {
+  font-size: 20px;
+  padding: 20px;
+  order: 1;
+}
+.nav-link {
+  margin-left: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.logo {
+  font-family: Maven Pro;
+  font-weight: bolder;
+  padding-left: 20px;
+  color: #5b9c89;
+  order: 2;
+}
+.logout {
+  margin-left: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 20px;
+  order: 3;
+}
+/* SignIn box */
+.sign {
+  position: absolute;
+  width: 473px;
+  min-height: 549px;
+  border: 3px solid #5fbb9f;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 20px;
+}
+.sign svg {
+  margin-left: 130px;
+}
+.form-input {
+  width: 426px;
+  height: 63px;
+  background: #ffffff;
+  border: 2px solid #5fbb9f;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 23px;
+  font-family: Maven Pro;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sign .label {
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 30px;
+}
+.button {
+  font-family: Maven Pro;
+  width: 426px;
+  height: 60px;
+  background: #5b9c89;
+  border-radius: 3px;
+  border: 1px solid #5fbb9f;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #5fbb9f;
+}
+.formText {
+  width: 411px;
+  height: 40px;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 41px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.signup {
+  text-decoration: none;
+  color: #5ac1e1;
+}
+.h {
+  margin-bottom: 30px;
+  padding: 0;
+  font-size: 30px;
+}
+/* HomeText Styles */
+
+.homeText {
+  font-family: Maven Pro;
+  width: 40%;
+  color: #000000;
+  font-size: 30px;
+  margin-top: 47px;
+  margin-left: 40px;
+}
+.homeText h1 {
+  color: #5b9c89;
+}
+.homeText p {
+  padding-left: 5px;
+}
+
+/* Tranlsate Component Styles */
+.sect1 {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  padding-right: 60px;
+  padding-bottom: 70px;
+}
+.translateText {
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #5b9c89;
+  margin-left: 700px;
+}
+.label1 {
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #616564;
+}
+.select-form {
+  width: 557px;
+  height: 86px;
+  background: #ffffff;
+  border: 3px solid #5b9c89;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+  color: #616564;
+}
+
+.sect2 {
+  width: 80%;
+  margin: auto;
+}
+.mainTextbox {
+  width: 1242px;
+  height: 90px;
+  background: #ffffff;
+  border: 3px solid #5b9c89;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  padding: 20px;
+  color: #616564;
+  margin-bottom: 10px;
+}
+
+.mainButton {
+  width: 1242px;
+  height: 90px;
+  background: #5b9c89;
+  border-radius: 3px;
+  border: 1px solid #5b9c89;
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.mainButton:hover {
+  background-color: #5fbb9f;
+}
+.translate {
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #5b9c89;
+  margin-left: 160px;
+}
+
+#result {
+  font-family: Maven Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 59px;
+}
+
+.while {
+  display: flex;
+  justify-content: space-between;
+}
+
+.in {
+  margin-left: 1100px;
+}
