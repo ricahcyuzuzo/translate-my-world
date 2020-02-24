@@ -29,6 +29,7 @@ body {
   font-family: Maven Pro;
   font-weight: bolder;
   padding-left: 20px;
+  padding-right: 20px;
   color: #5b9c89;
   order: 2;
 }
@@ -250,6 +251,7 @@ body {
 .while {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .in {

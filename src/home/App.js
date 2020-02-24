@@ -1,11 +1,11 @@
 import React from "react";
-import SignUn from "./Signup.component";
+import Nav from "./Nav.component";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <SignUn />
+      <Nav />
     </div>
   );
 }
